@@ -98,21 +98,21 @@ The Python and C++ SDKs are in development. If you would like early access, plea
 
 Demo Ditto syncing from your Raspberry Pi to your iOS or Android device, over Bluetooth LE or WLAN using our Tasks App:
 
-1) Make sure you've gone though the steps to prepare your system (see above)
-2) Install Node Version Manager on your Pi
+1) Make sure you've gone though the steps to prepare your system (see above). 
+2) Install Node Version Manager on your Pi.  
 
 ```
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
 ```
 Now restart your terminal session so the changes can be picked up.
 
-3) Install the LTS version of Node.js (v18.13) on your Pi
+3) Install the LTS version of Node.js (v18.13) on your Pi.  
 
 ```
 nvm install 18.13
 ```
 
-4) Clone the Linux Bluetooth branch of the samples app repo to your Pi
+4) Clone the Linux Bluetooth branch of the samples app repo to your Pi.  
 
 ```
 git clone --branch linux-bluetooth-node https://github.com/getditto/samples.git
@@ -120,7 +120,7 @@ cd samples/tasks/nodejs/
 ```
 Edit the index.ts file to include your own test App ID and Token (from our https://portal.ditto.live)
 
-5) Run the demo app!
+5) Run the demo app!.  
 ```
 npm install
 npm run build
